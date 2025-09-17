@@ -1,5 +1,5 @@
 public abstract class Integral {
-    private CalculatedFunction function;
+    public CalculatedFunction function;
     double gorna;
     double dolna;
 
