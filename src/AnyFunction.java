@@ -1,13 +1,13 @@
 public class AnyFunction implements CalculatedFunction{
     private CalculatedFunction funkcjadowykonania;
 
+    public AnyFunction(CalculatedFunction funkcja) {
+        this.funkcjadowykonania = funkcja;
+    }
+
     @Override
     public double f(double x) {
         return funkcjadowykonania.f(x);
-    }
-
-    public AnyFunction(CalculatedFunction funkcja) {
-        this.funkcjadowykonania = funkcja;
     }
 
     public static void main(String[] args) {
