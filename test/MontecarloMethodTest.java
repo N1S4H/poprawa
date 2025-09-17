@@ -1,3 +1,5 @@
+import oracle.jdbc.OracleBlob;
+
 public class MontecarloMethodTest {
     public static void main(String[] args) {
         //obliczenia
